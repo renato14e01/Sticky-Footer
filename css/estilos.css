@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+.header {
+  background: linear-gradient(to left, #A50044, #004D98);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenido h2, p {
+  background: white;
+  font-size: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #A50044;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
